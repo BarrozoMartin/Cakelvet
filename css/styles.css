@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&display=swap'); /* Hind vadodara */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Urbanist:wght@600&display=swap'); /* Urbanist */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=M+PLUS+Rounded+1c:wght@500&family=Urbanist:wght@600&display=swap'); /* Rounded Mplus 1c */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Inter:wght@300;500&family=M+PLUS+Rounded+1c:wght@500&family=Urbanist:wght@600&display=swap'); /* Inter */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --uno-color: #ef1d54;
+    --dos-color: #636363;
+    --tres-color: #00AE31;
+    --cuatro-color: #8E8E8E;
+    --cinco-color: #FFF;
+    --seis-color: #1C1D1E;
+    --siete-color: #66D9DD;
+    --ocho-color: #CDCDCD;
+    --nueve-color: #FF0000;
+}
+
+
+  /* Tamaño por defecto pantallas (1280-1024) */
+  @media all and (min-width: 1024px) and (max-width: 1280px) { }
+  
+  /* Tamaño tablet horizontal (1024-768) */
+  @media all and (min-width: 768px) and (max-width: 1024px) { }
+  
+  @media all and (min-width: 430px) and (max-width: 932px) { 
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Hind Vadodara', sans-serif;
+        background: url("https://res.cloudinary.com/dob2vpzui/image/upload/v1699463920/lk0tb0xyfnx5w2ce8av3.png") center/cover no-repeat fixed;
+        overflow: hidden;
+    }
+    
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: -15px;
+        width: 105%;
+        height: 101%;
+        z-index: -1;
+        background: linear-gradient(0deg, #1B1D1F 0%, rgba(27, 29, 31, 0.00) 50%);
+        backdrop-filter: blur(3px);
+    }
+
+    input[type="text"] {
+        width: 205.455px;
+        height: 30px;
+        padding: 8px;
+        border: none;
+        text-align: center;
+        border-radius: 15px; 
+        margin-bottom:  5rem;
+        font-family: Urbanist;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: -0.28px;
+    }
+    header {
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    h5 {
+        color: var(--cinco-color);
+        font-family: Urbanist;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+        margin: 0;
+        padding: 3px;
+    }
+    h1 {
+        color: var(--ocho-color);
+        font-family: Hind Vadodara;
+        text-align: center;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 20px;
+        letter-spacing: 12px;
+        text-transform: uppercase;
+    }
+    
+    
+    main {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    
+    button {
+        display: flex;
+        width: 338px;
+        height: 48px;
+        padding: 10px;
+        margin: 10px auto;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    p {
+        color: var(--cinco-color);
+        text-align: center;
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.56px;
+        letter-spacing: 0.5px;
+    }
+    
+    a {
+        color: var(--tres-color);
+        text-decoration: none;
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20.56px;
+        letter-spacing: 0.5px;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .logoLogin {
+        margin: 2rem 0;
+        width: 247px;
+        height: 185px;
+    }
+
+    .logoRed {
+        width: 24px;
+        height: 24px;
+        margin-right: 18px;
+    }
+
+    .logoUbic {
+        width: 24.358px;
+        height: 20.909px;
+        position: absolute;
+        left: 18rem;
+        top: 6.5rem;
+    }
+
+    .btn-facebook, .btn-google, .btn-apple {
+        background-color: transparent;
+        border: 2px solid var(--cinco-color);
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .btn-password {
+        background-color: var(--uno-color); 
+        display: flex;
+        width: 338px;
+        height: 49px;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 14px;
+        margin: 2rem auto;
+    }
+    
+    .line {
+        border-top: 2px solid var(--cinco-color);
+        width: 120px;
+        height: 1px;
+        margin: 0 10px;
+    }
+    
+    .number {
+        font-size: 24px;
+        font-weight: bold;
+        color: var(--cinco-color);
+    }
+     
+} 
+  /* Tamaño teléfonos (480-menos ) */
+  @media all and (max-width: 480px) { }
+  
+  /*  Orientación: Vertical */
+  @media screen and (orientation:portrait) { }
+  
+  /* Orientación: Horizontal  */
+  @media screen and (orientation:landscape) { }
+  
+  /* iPhone - Orientación: Vertical */
+  @media screen and (max-device-width: 480px) and (orientation:portrait) { } 
+  
+  /* iPhone - Orientación: Horizontal  */
+  @media screen and (max-device-width: 480px) and (orientation:landscape) { }
+  
+  /* iPad - Orientación: Vertical */
+  @media screen and (min-device-width: 481px) and (orientation:portrait) { }
+  
+  /* iPad - Orientación: Horizontal  */
+  @media screen and (min-device-width: 481px) and (orientation:landscape) { }
+
+
+

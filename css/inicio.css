@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Urbanist:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=M+PLUS+Rounded+1c:wght@500&family=Urbanist:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@700&family=Inter:wght@300;500&family=M+PLUS+Rounded+1c:wght@500&family=Urbanist:wght@600&display=swap');
+
+
+:root {
+    --uno-color: #EF1D54;
+    --dos-color: #636363;
+    --tres-color: #00AE31;
+    --cuatro-color: #8E8E8E;
+    --cinco-color: #FFF;
+    --seis-color: #1C1D1E;
+    --siete-color: #66D9DD;
+    --ocho-color: #CDCDCD;
+    --nueve-color: #FF0000;
+}
+
+@media all and (min-width: 430px) and (max-width: 932px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url("https://res.cloudinary.com/dob2vpzui/image/upload/v1699388801/idqsycm0tepcdnr8wlt8.jpg") center/cover no-repeat;
+        height: 933px;
+        width: 431px;
+        backdrop-filter: blur(3px);
+        background: linear-gradient(to top, rgb(11, 12, 13), rgb(6, 7, 8));
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    ul {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .3rem;
+    }
+    
+    li {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding: 8px 4px;
+        list-style: none;
+        transition: all 0.3s ease;
+    }
+    
+    li:hover,
+    li:active {
+        padding: 8px 4px;
+        list-style: none;
+        border: 2px solid var(--nueve-color);
+        border-radius: 8px;
+    }
+    
+    a {
+        color: var(--cinco-color);
+        font-family: Urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px; 
+        letter-spacing: 1.92px;
+        text-decoration: none;
+    }
+    
+    ul li a:hover,
+    ul li a:active {
+        color: var(--nueve-color);
+        text-decoration: none;
+        
+    }
+
+    .precio p {
+        display: inline-flex;
+        margin:  8.19px 10px 0 0;
+    }
+
+    .precio p:last-child{
+        color: var(--cuatro-color);
+        font-family: Urbanist;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.935px;
+        text-decoration: line-through;
+    }
+    .precio p:first-child {
+        color: black;
+        font-family: Urbanist;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0.935px;
+    }
+
+    .texto-tarjeta p{
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px; 
+        letter-spacing: 0.024px;
+        margin: 5px 15px 8px 0;
+    }
+
+    h1 {
+        color: var(--cinco-color);
+        font-family: Hind Vadodara;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        margin: 8px;
+    }
+    
+    h2 {
+        color: var(--cinco-color);
+        text-align: center;
+        font-family: Hind Vadodara;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 19px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-top: 8px ;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        text-transform: capitalize;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: auto;
+        width: 431px;
+        height: 64px;
+
+    }
+
+    .menuBurga {
+        margin-top: 2px;
+        margin-left: -1rem;
+        color: var(--cinco-color);
+        font-size: 25px;
+    }
+
+    .carrito {
+        margin-top: 2px;
+        margin-right: -1rem;
+        color: var(--cinco-color);
+        font-size: 24px;
+    }
+
+    .sticks {
+        margin: .45rem 1.3rem 0 1.3rem;
+        width: 90px;
+        height: 8px;
+    }
+    .separacion{
+        margin-top: 27px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        display: flex;
+        background-color: var(--cinco-color);
+        width: 390px;
+        height: 267px;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    .imgTarjetas {
+        width: 184px;
+        height: 267px;
+    }
+    
+    .tarjetas {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .tarjeta {
+        display: flex;
+        width: 390px;
+        height: 267px;
+    }
+    
+    .imagen-tarjeta {
+        flex: 1;
+    }
+    
+    .contenido-tarjeta {
+        flex: 1;
+    }
+ 
+    .boton-agregar {
+        color: #FFF;
+        background-color: var(--uno-color); 
+        font-family: Urbanist;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: -0.3px;
+        display: inline-flex;
+        height: 36px;
+        padding: 8px 18px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        position: relative;
+        left: 4rem;
+        top: .9rem;
+        border: none;
+    }
+
+    .boton-agregar:hover {
+        background-color: var(--seis-color);
+    }
+
+    .rating {
+        margin-top: 10px;
+    }
+    
+    .star {
+        margin: 18px 4px 0 4px;
+        font-size: 9px;
+        color: var(--cuatro-color);
+        transition: color 0.3s;
+    }
+    
+    .star:hover,
+    .star.checked {
+        color: #000;
+    }
+
+    .bordes {
+        margin: 20px 20px 0 20px;
+        border-top: solid 3px  rgba(35, 34, 34, 0.7);
+        border-bottom: solid 3px  rgba(35, 34, 34, 0.7);
+    }
+
+    .caja {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caja img {
+        margin:  0 0 5rem 20px;
+        width: 98px;
+        height: 99px;
+    }
+
+    .comentarios{
+        justify-content: center;
+        align-items: center;
+        width: 278px;
+        height: 200px;
+        margin: 20px 20px -.7rem 20px;
+    }
+    .comentarios p:first-child {
+        color: var(--cuatro-color);
+        width: 278px;
+        height: 79px;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    }
+
+    .comentarios p:last-child {
+        color: var(--cuatro-color);
+        width: 231px;
+        height: 36px;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0.024px;
+    }
+
+    .flechitas {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        margin-top: 9rem;
+        gap: 4rem;
+    }
+
+    .flechitas i:last-child {
+        color: #FFF;
+    }
+    
+    .flechitas i:first-child {
+        color: rgba(35, 34, 34, 0.7)
+    }
+
+    /* Estilos para el menú desplegable */
+    .dropdown-menu {
+        display: none;
+        top: 0;
+        left: -100%; 
+        width: 100%; 
+        height: 100%; 
+        background-color: #333;
+        z-index: 1;
+        transition: left 0.3s; 
+    }
+
+    .dropdown-menu h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    .dropdown-menu .menuBurga {
+        display: flex;
+        position: absolute;
+        margin-left: 2rem;
+        margin-top: .5rem;
+
+    }
+
+    .dropdown-menu ul i {
+        color: var(--nueve-color);
+        display: flex;
+        position: absolute;
+        left: 5rem;
+        font-size: 30px;
+    }
+
+
+    .dropdown-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+        list-style: none;
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        margin-left: 8rem;
+        overflow: hidden;
+    }
+
+    .dropdown-menu li {
+        margin-top: 5rem;
+        
+    }
+
+    .dropdown-menu a {
+        text-decoration: none;
+        text-align: left;
+    }
+
+    .dropdown-menu a:hover {
+        color: var(--nueve-color);
+    }
+
+    .sesion {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+    
+    .sesion a {
+        margin-left: 2rem; 
+    }
+    
+    .sesion i {
+        color: var(--nueve-color);
+        font-size: 30px;
+    }
+    
+    .show-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--seis-color);
+        overflow-y: hidden;
+        animation: slideIn 0.5s forwards;
+    }
+    
+    .slideOut {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--seis-color);
+        overflow-y: hidden;
+        animation: slideOut 0.5s forwards;
+    }
+    
+    @keyframes slideIn {
+        from {
+            left: -100%;
+        }
+        to {
+            left: 0;
+        }
+    }
+    
+    @keyframes slideOut {
+        from {
+            left: 0;
+        }
+        to {
+            left: -100%;
+        }
+    }
+}

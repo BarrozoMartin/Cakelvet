@@ -36,7 +36,7 @@
         padding: 0;
         font-family: 'Hind Vadodara', sans-serif;
         background: url("https://res.cloudinary.com/dob2vpzui/image/upload/v1699463920/lk0tb0xyfnx5w2ce8av3.png") center/cover no-repeat fixed;
-        overflow: hidden;
+        overflow:auto;
     }
     
     body::before {

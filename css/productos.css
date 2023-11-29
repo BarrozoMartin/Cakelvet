@@ -17,7 +17,7 @@
 }
 
 
-@media all and (min-width: 430px) and (max-width: 932px) {
+@media only screen and (min-width : 901px) {
     
     * {
         margin: 0;

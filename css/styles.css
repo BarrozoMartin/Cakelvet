@@ -29,7 +29,7 @@
   /* Tamaño tablet horizontal (1024-768) */
   @media all and (min-width: 768px) and (max-width: 1024px) { }
   
-  @media only screen and (min-width : 400px) { 
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
 
     body {
         margin: 0;

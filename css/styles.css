@@ -49,6 +49,9 @@
         z-index: -1;
         background: linear-gradient(0deg, #1B1D1F 0%, rgba(27, 29, 31, 0.00) 50%);
         backdrop-filter: blur(3px);
+        overflow: auto;
+        
+        
     }
 
     input[type="text"] {

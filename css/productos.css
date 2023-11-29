@@ -27,7 +27,7 @@
 
     body {
         background: url("https://res.cloudinary.com/dob2vpzui/image/upload/v1699388801/idqsycm0tepcdnr8wlt8.jpg") center/cover no-repeat;
-        height: 933px;
+        min-height: 933px;
         width: 431px;
         backdrop-filter: blur(3px);
         background: linear-gradient(to top, rgb(11, 12, 13), rgb(6, 7, 8));
